@@ -10,8 +10,6 @@ export {}
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     AttributeCalculate: typeof import('./src/components/attributeCalculate.vue')['default']
-    ElButton: typeof import('element-plus/es')['ElButton']
     ElCard: typeof import('element-plus/es')['ElCard']
-    ElRow: typeof import('element-plus/es')['ElRow']
   }
 }
