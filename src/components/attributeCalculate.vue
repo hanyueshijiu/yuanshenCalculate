@@ -1,6 +1,6 @@
 <template>
   <el-card class="box-card">
-    <div v-for="o in 4" :key="o" class="text item">{{ 'List item ' + o }}</div>
+    
   </el-card>
 </template>
 
@@ -18,6 +18,9 @@
 }
 
 .box-card {
-  width: 480px;
+  width: 40rem;
+  height: 43rem;
+  opacity: 0.7;
 }
+
 </style>
