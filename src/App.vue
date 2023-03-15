@@ -17,7 +17,7 @@ body{
 }
 #app {
   margin: 0 auto;
-  background-image: url('../public/bg.jpg');
+  background-image: url('bg.jpg');
   background-repeat: no-repeat;
   background-size:cover;
   opacity: 0.9;
